@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>每日灵感 | Fullstack Static App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>💡 每日灵感</h1>
+            <p>基于 GitHub + Netlify 的全栈演示</p>
+        </header>
+
+        <main>
+            <div class="card">
+                <p id="quote-text">点击下方按钮获取今天的灵感...</p>
+                <small id="quote-author"></small>
+            </div>
+            <button id="fetch-btn">获取新灵感</button>
+        </main>
+
+        <footer>
+            <p>Powered by Netlify Functions</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
